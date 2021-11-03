@@ -1,0 +1,46 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Trirong", serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+.music_player_container {
+  /* display: block;
+  min-width: 25%;*/
+  min-height: 500px;
+  width: 25%;
+  /* height: 75%; */
+  min-width: 320px;
+  /* min-width: 960px; */
+  box-shadow: 0px 2px 5px 0.2px;
+  border-radius: 0.8em;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify_center {
+  justify-content: center;
+}
+
+.align_center {
+  align-items: center;
+}
+
+.border_yellow {
+  border: 1px solid yellow;
+}
+
+.border_green {
+  border: 1px solid green;
+}
+
+.min_height_full {
+  min-height: 100%;
+}
